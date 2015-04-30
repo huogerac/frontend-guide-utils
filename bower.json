@@ -1,0 +1,19 @@
+{
+    "name": "frontend-guide-utils",
+    "version": "0.1.0",
+    "description": "A CSS utils with a lot of small CSS snippets. Once the snippets get bigger it will be a separated component.",
+    "homepage": "https://github.com/huogerac/frontend-guide-utils",
+    "authors": ["Roger Camargo"],
+    "main": [
+             "css/crossbrower.css",
+             "css/flip-switch.css",
+             "css/frontend-guide.css",
+             "css/image-filters.css",
+             "css/image-grid.css",
+             "css/navigation.css",
+             "css/queries.css",
+             "css/radio.css",
+             "css/simple-sidebar.css",
+             "css/socialmedia.css",
+            ],
+}
