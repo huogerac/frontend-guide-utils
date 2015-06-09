@@ -13,9 +13,9 @@ TODO: move this to /sass/ folder and apply the correct colors
 
 .og-grid li {
 	display: inline-block;
-	margin: 10px 5px 0 5px;
+	margin: 8px 8px 8px 8px;
 	vertical-align: top;
-	height: 250px;
+	height: 260px;
 }
 
 .og-grid li > a,
