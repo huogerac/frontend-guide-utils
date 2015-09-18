@@ -14,18 +14,6 @@ html a {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 }
 
-html,
-button,
-input,
-select,
-textarea {
-    font-family: "Varela Round", sans-serif;
-}
-
-body {
-    font-family: "Varela Round", sans-serif;
-}
-
 #wrapper {
     overflow-y: hidden;
 }
