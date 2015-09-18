@@ -68,6 +68,9 @@ header.navbar-default .color_band{ background:#333;}
 header.navbar-default .color_band div{ padding:0;}
 header.navbar-default .color_band span{ display:block; height:7px; padding:0; box-shadow:1px 1px 1px rgba(0,0,0,.2) inset; -moz-box-shadow:1px 1px 1px rgba(0,0,0,.2) inset; -webkit-box-shadow:1px 1px 1px rgba(0,0,0,.2) inset;}
 
+header.navbar-default .navbar-nav > li > a {
+    font-size: 16px;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {	 
 	header.navbar-default .navbar-brand img{ width:65%; height:auto;}
