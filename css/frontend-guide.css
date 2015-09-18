@@ -50,7 +50,8 @@ p {
     padding: 20px 0;
 }
 
-.light-box:hover, .light-box:focus {
+.light-box:hover,
+.light-box:focus {
     -webkit-box-shadow: 0 3px 0 0;
     -moz-box-shadow: 0 3px 0 0;
     box-shadow: 0 3px 0 0;
@@ -63,7 +64,8 @@ p {
     transition: all 500ms ease-in-out;
 }
 
-.box-hover:hover, .box-hover:focus {
+.box-hover:hover,
+.box-hover:focus {
     -webkit-transform: translate(0, -15px);
     -ms-transform: translate(0, -15px);
     transform: translate(0, -15px);
