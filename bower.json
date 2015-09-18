@@ -1,6 +1,6 @@
 {
   "name": "frontend-guide-utils",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A CSS utils with a lot of small CSS snippets. Once the snippets get bigger it will be a separated component.",
   "homepage": "https://github.com/huogerac/frontend-guide-utils",
   "authors": [
