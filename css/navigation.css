@@ -200,7 +200,7 @@ nav ul li a:focus {
    Navigation - G20gbc style
    ========================================================================== */
 
-header.navbar-default {
+.navbar-default {
     border-bottom: 0;
     min-height: 88px;
     -webkit-transition: all 1s;
@@ -211,35 +211,35 @@ header.navbar-default {
     z-index: 999;
 }
 
-header.navbar-default .navbar-brand {
+.navbar-default .navbar-brand {
     display: block;
     height: auto;
 }
 
-header.navbar-default .navbar-nav {
+.navbar-default .navbar-nav {
     padding: 20px 20px 0;
 }
 
-header.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a {
     font-size: 16px;
 }
 
-header.navbar-default .navbar-nav > li > a:hover,
-header.navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
     color: #ccc;
 
-header.navbar-default .navbar-form {
+.navbar-default .navbar-form {
     padding-top: 20px;
 }
 
-header.navbar-default .form-control:focus {
+.navbar-default .form-control:focus {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-header.navbar-default .navbar-form .form-control,
-header.navbar-default .navbar-nav > li > a.btn_open_map {
+.navbar-default .navbar-form .form-control,
+.navbar-default .navbar-nav > li > a.btn_open_map {
     background: #689c14;
     border: 1px solid #629410;
     -moz-border-radius: 8px;
@@ -256,12 +256,12 @@ header.navbar-default .navbar-nav > li > a.btn_open_map {
     transition-duration: 0.4s;
 }
 
-header.navbar-default .navbar-nav > li > a.btn_open_map:hover {
+.navbar-default .navbar-nav > li > a.btn_open_map:hover {
     background: #5c6370;
     border: 1px solid #555d6a;
 }
 
-header.navbar-default .navbar-form .btn_search_go {
+.navbar-default .navbar-form .btn_search_go {
     background: url(../images/sprite.png) 0 0 no-repeat;
     border: 0;
     height: 25px;
@@ -271,28 +271,28 @@ header.navbar-default .navbar-form .btn_search_go {
     width: 25px;
 }
 
-header.navbar-default .form-control::-moz-placeholder {
+.navbar-default .form-control::-moz-placeholder {
     color: #cedabb;
     opacity: 1;
 }
 
-header.navbar-default .form-control:-ms-input-placeholder {
+.navbar-default .form-control:-ms-input-placeholder {
     color: #cedabb;
 }
 
-header.navbar-default .form-control::-webkit-input-placeholder {
+.navbar-default .form-control::-webkit-input-placeholder {
     color: #cedabb;
 }
 
-header.navbar-default .color_band {
+.navbar-default .color_band {
     background: #333;
 }
 
-header.navbar-default .color_band div {
+.navbar-default .color_band div {
     padding: 0;
 }
 
-header.navbar-default .color_band span {
+.navbar-default .color_band span {
     -moz-box-shadow: 1px 1px 1px rgba(0,0,0,.2) inset;
     -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.2) inset;
     box-shadow: 1px 1px 1px rgba(0,0,0,.2) inset;
@@ -301,35 +301,35 @@ header.navbar-default .color_band span {
     padding: 0;
 }
 
-header.navbar-default .nav .fa-sign-in {
+.navbar-default .nav .fa-sign-in {
    display: none;
 }
 
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
 
-    header.navbar-default .navbar-brand img {
+    .navbar-default .navbar-brand img {
         height: auto;
         width: 65%;
     }
 
-    header.navbar-default .navbar-form {
+    .navbar-default .navbar-form {
         border: 0;
         padding-top: 0;
         padding-bottom: 0;
     }
 
-    header.navbar-default .navbar-toggle {
+    .navbar-default .navbar-toggle {
         border: 0;
         margin-top: 18px;
     }
 
-    header.navbar-default .navbar-toggle:hover,
-    header.navbar-default .navbar-toggle:focus {
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
         background: #dce5eb;
     }
 
-    header.navbar-default .navbar-toggle .icon-bar {
+    .navbar-default .navbar-toggle .icon-bar {
         background: #53616b;
         -moz-border-radius: 0;
         -webkit-border-radius: 0;
