@@ -206,7 +206,7 @@ TODO: move this to /sass/ folder and apply the correct colors
 
 	.og-fullimg { display: none; }
 	.og-details { float: none; width: 100%; }
-	
+
 }
 
 
@@ -398,7 +398,7 @@ TODO: move this to /sass/ folder and apply the correct colors
 
 /* images effects -------------------- */
 .effects { padding-left: 15px; }
-.effects .img { position: relative; margin-bottom: 50px; position: relative; z-index: 1; overflow: hidden; }
+.effects .img { position: relative; position: relative; z-index: 1; overflow: hidden; }
 .effects .img:nth-child(n) { margin-right: 5px; }
 .effects .img:first-child { margin-left: -15px; }
 .effects .img:last-child { margin-right: 0; }
@@ -434,7 +434,7 @@ a.expand { display: block; position: absolute; z-index: 100; text-align: center;
     content: "";
     height: 200px; width: 200px;
     background: #eff4de;
-    border: 8px solid #fff;     
+    border: 8px solid #fff;
     position: absolute;
     z-index: -1;
     top: 0px;
@@ -489,7 +489,7 @@ a.expand { display: block; position: absolute; z-index: 100; text-align: center;
     font-weight: 700;
     text-align: right;
     left: -100%;
-    box-shadow: 
+    box-shadow:
         1px 1px 1px rgba(0,0,0,0.1),
         5px 0 5px -3px rgba(0,0,0,0.4),
         inset 0 0 5px rgba(0,0,0,0.04);
