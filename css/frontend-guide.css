@@ -82,21 +82,31 @@ p {
 }
 
 .main-notification {
+    background-color: #666;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 0 0.25em 0.25em 0;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08) inset;
     display: inline-block;
-    font-size: 1.375rem;
+    font-size: 22px;
     left: 0;
-    padding-left: 0.75em;
+    padding: 5px 10px;
     position: fixed;
-    text-align: left;
+    -moz-transition: all 600ms;
+    -webkit-transition: all 600ms;
+    -o-transition: all 600ms;
+    transition: all 600ms;
     top: 22%;
-    width: 110px;
+    z-index: 999;
 }
 
 .main-notification:hover {
-    width: 130px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-left: 15px;
+}
+
+.main-notification #menu-toggle {
+    color: #fff;
 }
 
 .traced {
