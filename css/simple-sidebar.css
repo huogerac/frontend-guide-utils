@@ -88,7 +88,8 @@
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999999;
+    color: #999;
+    padding-right: 12px;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
