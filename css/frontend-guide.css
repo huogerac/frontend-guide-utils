@@ -163,36 +163,6 @@ p {
 
 /* effects -------------------- */
 
-.effects {
-    padding-left: 15px;
-}
-
-.effects .img {
-    margin-bottom: 50px;
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
-}
-
-.effects .img:nth-child(n) {
-    margin-right: 5px;
-}
-
-.effects .img:first-child {
-    margin-left: -15px;
-}
-
-.effects .img:last-child {
-    margin-right: 0;
-}
-
-.effects .img img {
-    display: block;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
-
 .overlay {
     display: block;
     position: absolute;
