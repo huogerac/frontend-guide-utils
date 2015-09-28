@@ -14,10 +14,6 @@ html a {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 }
 
-#wrapper {
-    overflow-y: hidden;
-}
-
 a {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -35,6 +31,35 @@ p {
     font-size: 14px;
     line-height: 25px;
     word-spacing: 1px;
+}
+
+#wrapper {
+    overflow-y: hidden;
+}
+
+#back-top {
+    background: #333;
+    background: rgba(51, 51, 51, 0.75);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    bottom: 30px;
+    color: #fff;
+    display: none;
+    padding: 15px 20px;
+    position: fixed;
+    right: 30px;
+    -moz-transition: all 600ms;
+    -webkit-transition: all 600ms;
+    -o-transition: all 600ms;
+    transition: all 600ms;
+    z-index: 1;
+}
+
+#back-top:hover {
+    background: #3ac0fe;
+    background: rgba(58, 192, 254, 0.75);
+    text-decoration: none;
 }
 
 .dark-box {
