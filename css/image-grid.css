@@ -141,7 +141,7 @@ TODO: move this to /sass/ folder and apply the correct colors
 }
 
 .og-details a::before {
-	content: '\2192';
+	content: '\2190';
 	display: inline-block;
 	margin-right: 10px;
 }
