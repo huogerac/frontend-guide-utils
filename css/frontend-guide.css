@@ -438,8 +438,12 @@ p {
 }
 
 .content-item h2 {
-    font-size: 19px;
+    font-size: 20px;
     text-transform: uppercase;
+}
+
+.content-item p {
+    font-size: 18px;
 }
 
 .content-intro .content-item h2 {
@@ -465,4 +469,12 @@ p {
 
 .content-four .content-item small {
     font-size: 16px;
+}
+
+.fc-toolbar {
+    margin-bottom: 0.75em;
+}
+
+.fc-toolbar .fc-center {
+    margin-top: 0.5em;
 }

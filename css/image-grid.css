@@ -140,14 +140,23 @@ TODO: move this to /sass/ folder and apply the correct colors
 }
 
 .og-details a::before {
-    content: "\2190";
+    content: "\2192";
     display: inline-block;
     margin-right: 10px;
+}
+
+.og-details a.back-home::before {
+    content: "\2190";
 }
 
 .og-details a:hover {
     border-color: #999;
     color: #999;
+}
+
+.og-details-light {
+    float: none;
+    width: auto;
 }
 
 .og-details-light a {
