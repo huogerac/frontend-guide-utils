@@ -15,7 +15,7 @@
 }
 
 #wrapper.toggled {
-    padding-left: 250px;
+    padding-left: 0;
 }
 
 #sidebar-wrapper {
@@ -23,6 +23,7 @@
     left: 250px;
     height: 100%;
     margin-left: -250px;
+    overflow-x: hidden;
     overflow-y: auto;
     position: fixed;
     top: 0;
@@ -99,14 +100,10 @@
     color: #fff;
 }
 
-@media(min-width:480px) {
+@media(min-width: 480px) {
 
     #wrapper {
         padding-left: 250px;
-    }
-
-    #wrapper.toggled {
-        padding-left: 0;
     }
 
     #sidebar-wrapper {
