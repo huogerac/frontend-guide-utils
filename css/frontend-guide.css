@@ -471,10 +471,16 @@ p {
     font-size: 16px;
 }
 
-.fc-toolbar {
+#calendar {
+    background: #fff;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#calendar .fc-toolbar {
     margin-bottom: 0.75em;
 }
 
-.fc-toolbar .fc-center {
+#calendar .fc-toolbar .fc-center {
     margin-top: 0.5em;
 }

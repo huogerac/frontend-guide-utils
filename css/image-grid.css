@@ -124,6 +124,7 @@ TODO: move this to /sass/ folder and apply the correct colors
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
+    margin: 0;
 }
 
 .og-details a {
