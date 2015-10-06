@@ -462,6 +462,17 @@ p {
     margin-top: 25px;
 }
 
+.content-three .content-item {
+    position: relative;
+}
+
+.content-three .content-item h4 {
+    display: inline-block;
+    left: 0;
+    padding: 10px 20px;
+    position: absolute;
+}
+
 .content-three h3 {
     margin-top: 15px;
 }
