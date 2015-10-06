@@ -56,6 +56,8 @@ p {
 }
 
 #back-top:hover {
+    background: #3ac0fe;
+    background: rgba(58, 192, 254, 0.75);
     text-decoration: none;
 }
 
@@ -438,6 +440,7 @@ p {
 
 .content-item h2 {
     font-size: 20px;
+    margin-bottom: 30px;
     text-transform: uppercase;
 }
 
@@ -467,10 +470,21 @@ p {
 }
 
 .content-three .content-item h4 {
+    background: whitesmoke;
     display: inline-block;
+    font-size: 20px;
     left: 0;
+    margin: 0;
     padding: 10px 20px;
     position: absolute;
+}
+
+.content-three .content-item h4 small {
+    color: inherit;
+}
+
+.content-three .content-item .badge {
+    margin-bottom: 5px;
 }
 
 .content-three h3 {
@@ -487,10 +501,10 @@ p {
     padding: 20px;
 }
 
-#calendar .fc-toolbar {
+.fc-toolbar {
     margin-bottom: 0.75em;
 }
 
-#calendar .fc-toolbar .fc-center {
+.fc-toolbar .fc-center {
     margin-top: 0.5em;
 }
