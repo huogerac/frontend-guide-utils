@@ -46,14 +46,22 @@ nav ul li a:focus {
 }
 
 #nav-toggle {
+    cursor: pointer;
+    padding: 45px 55px 16px 0;
     position: absolute;
     right: 15px;
     top: 0;
 }
 
-#nav-toggle {
-    cursor: pointer;
-    padding: 45px 55px 16px 0;
+#nav-toggle:before {
+    color: #555;
+    content: "Menu";
+    font-size: 20px;
+    font-weight: bold;
+    left: -75px;
+    position: relative;
+    text-transform: uppercase;
+    top: 17px;
 }
 
 #nav-toggle span,
