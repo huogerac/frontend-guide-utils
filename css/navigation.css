@@ -137,14 +137,8 @@ nav ul li a:focus {
 @media only screen and (min-width: 320px) and (max-width: 768px) {
 
     #nav-toggle {
-        position: absolute;
-        right: 15px;
-        top: 0;
-    }
-
-    #nav-toggle {
-        cursor: pointer;
-        padding: 60px 35px 16px 0;
+        padding: 10px 0 0;
+        right: 0;
     }
 
     #nav-toggle span,
@@ -201,6 +195,11 @@ nav ul li a:focus {
         -ms-transform: translateY(-10px) rotate(-45deg);
         transform: translateY(-10px) rotate(-45deg);
     }
+
+    .main-background {
+        padding-top: 60px;
+    }
+
 }
 
 
