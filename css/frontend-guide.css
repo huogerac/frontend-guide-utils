@@ -436,6 +436,11 @@ p {
     cursor: move;
 }
 
+/* 
+Nestes arquivos nao devemos ter nomes de elementos de projetos (ex: content-item)
+no lugar, devemos ter nomes de componentes reutilizavesi (ex: date-caption, button3d)
+mas sim nomes compoentes 
+*/ 
 .content-item h2 {
     font-size: 20px;
     margin-bottom: 30px;
@@ -467,7 +472,7 @@ p {
     position: relative;
 }
 
-.content-three .content-item h4 {
+.calendar-caption h4 {
     background: whitesmoke;
     background: rgba(255, 255, 255, 0.8);
     display: inline-block;
@@ -478,15 +483,15 @@ p {
     position: absolute;
 }
 
-.content-three .content-item h4 small {
+.calendar-caption h4 small {
     color: inherit;
 }
 
-.content-three .content-item .badge {
+.calendar-caption .badge {
     margin-bottom: 5px;
 }
 
-.content-three h3 {
+.calendar-caption h3 {
     margin-top: 15px;
 }
 
