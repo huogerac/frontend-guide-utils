@@ -52,7 +52,7 @@ p {
     -webkit-transition: all 600ms;
     -o-transition: all 600ms;
     transition: all 600ms;
-    z-index: 1;
+    z-index: 10;
 }
 
 #back-top:hover {
@@ -436,11 +436,11 @@ p {
     cursor: move;
 }
 
-/* 
+/*
 Nestes arquivos nao devemos ter nomes de elementos de projetos (ex: content-item)
 no lugar, devemos ter nomes de componentes reutilizavesi (ex: date-caption, button3d)
-mas sim nomes compoentes 
-*/ 
+mas sim nomes compoentes
+*/
 .content-item h2 {
     font-size: 20px;
     margin-bottom: 30px;
