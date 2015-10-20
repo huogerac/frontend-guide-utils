@@ -52,7 +52,7 @@ p {
     -webkit-transition: all 600ms;
     -o-transition: all 600ms;
     transition: all 600ms;
-    z-index: 10;
+    z-index: 1;
 }
 
 #back-top:hover {
@@ -106,13 +106,13 @@ p {
 .main-notification {
     background-color: #666;
     background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 0 0.25em 0.25em 0;
+    border-radius: 0.25em 0 0 0.25em;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08) inset;
     display: inline-block;
     font-size: 22px;
-    left: 0;
     padding: 5px 10px;
     position: fixed;
+    right: 0;
     -moz-transition: all 600ms;
     -webkit-transition: all 600ms;
     -o-transition: all 600ms;
