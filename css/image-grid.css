@@ -570,7 +570,7 @@ a.expand {
     -o-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg);
-    top: 0px;
+    top: 0;
     width: 200px;
     z-index: -1;
 }
@@ -578,12 +578,12 @@ a.expand {
 .stackimage:after {
     background: #768590;
     border: 8px solid #fff;
-    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     content: "";
     height: 200px; width: 200px;
-    left: 0px;
+    left: 0;
     position: absolute;
     top: 5px;
     -webkit-transform: rotate(4deg);
@@ -626,30 +626,29 @@ a.expand {
 }
 
 .stackimage-title {
-    left: 0px;
+    left: 0;
     padding: 10px 35px 10px 10px;
 }
 
-.stackimage-title span:nth-child(2){
-    color: #aaa;
-    padding: 0 5px;
+.stackimage-title span:nth-child(2) {
     background: #F7F7F7;
-    right: 0px;
+    color: #aaa;
+    display: block;
     height: 100%;
     line-height: 40px;
-    top: 0px;
+    padding: 0 5px;
     position: absolute;
-    display: block;
+    right: 0;
+    top: 0;
 }
 
 
-
-/* used for give a hover effect on radio select items */
+/* used to give a hover effect on radio select items */
 
 .grid {
     list-style: none;
-    max-width: 1300px;
     margin: 0 auto;
+    max-width: 1300px;
     padding: 20px 20px 100px;
     text-align: center;
 }
@@ -667,6 +666,7 @@ a.expand {
 
 .grid figcaption {
     background: #2c3f52;
+    border-radius: 1px 0 0;
     color: #ed4e6e;
     left: 0;
     padding: 20px;
@@ -727,7 +727,7 @@ a.expand {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-    box-shadow: 0 0 0 0px #2c3f52;
+    box-shadow: 0 0 0 0 #2c3f52;
     height: 100%;
     opacity: 0;
     -webkit-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
@@ -745,7 +745,10 @@ a.expand {
 
 .cs-style-7 figcaption h5 {
     color: #fff;
+    line-height: 1.5;
     margin-top: 60%;
+    white-space: pre-line;
+    word-wrap: break-word;
 }
 
 .cs-style-7 figcaption h3,
