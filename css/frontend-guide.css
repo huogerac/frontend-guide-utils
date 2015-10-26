@@ -105,11 +105,11 @@ p {
 
 .main-notification {
     background-color: #666;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 0.25em 0 0 0.25em;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08) inset;
     display: inline-block;
-    font-size: 22px;
+    font-size: 16px;
     padding: 5px 10px;
     position: fixed;
     right: 0;
@@ -117,14 +117,14 @@ p {
     -webkit-transition: all 600ms;
     -o-transition: all 600ms;
     transition: all 600ms;
-    top: 22%;
+    top: 12%;
     z-index: 999;
 }
 
 .main-notification:hover {
     background-color: #000;
     background-color: rgba(0, 0, 0, 0.9);
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 .main-notification #menu-toggle {
